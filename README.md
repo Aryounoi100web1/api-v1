@@ -1,5 +1,7 @@
 # Welcome to API-v1!
 
+# API EndPoint : https://api-v1.banktopup.com
+
 # วิธีการลงทะเบียนบัญชี
 
 1. /api/v1/scb/register ส่งข้อมูลต่างๆไปเพิ่มเพิ่มบัญชี จากนั้นระบบจะตอบกลับมาด้วย deviceid เช่น ba8ff1f5-7ba6-4678-83fe-8abf004eab4c
