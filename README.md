@@ -22,7 +22,7 @@
 | /api/v1/scb/login              | {"deviceid":"xxx","pin":"xxxxx","account_no":"xxxxxxxx"}                                                                                                                                                                                                                                 |
 | /api/v1/scb/transactions       | { "deviceid":"xxx", "pin":"xxxxx", "account_no" :"xxxxxxxx", "previous_day":7, "page_number":1, "page_size":20 }                                                                                                                                                                         |
 | /api/v1/scb/verification       | { "deviceid": "xxx", "pin": "xxxxx", "account_no": "xxxxxxxx", "account_to": "xxxxxxxx", "bank_code": "bankCode ดูได้จาก bank list", "amount": 1.00 }                                                                                                                                    |
-| /api/v1/scb/transactions       | { "deviceid": "xxx", "pin": "xxxxx", "account_no": "xxxxxxxx", "account_to": "xxxxxxxx", "bank_code": "bankCode ดูได้จาก bank list", "amount": 1.00 }                                                                                                                                    |
+| /api/v1/scb/transfer           | { "deviceid": "xxx", "pin": "xxxxx", "account_no": "xxxxxxxx", "account_to": "xxxxxxxx", "bank_code": "bankCode ดูได้จาก bank list", "amount": 1.00 }                                                                                                                                    |
 
 # HTTP Header
 
