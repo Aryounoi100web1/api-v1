@@ -14,7 +14,6 @@
 
 # API (Method : POST)
 
-<<<<<<< HEAD
 | #                              | param                                                                                                                                                                                                                                                                                    |
 | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | /api/v1/scb/check_device       | {"deviceid":"deviceid ของบัญชีที่จะเช็ค"}                                                                                                                                                                                                                                                |
@@ -24,17 +23,6 @@
 | /api/v1/scb/transactions       | { "deviceid":"xxx", "pin":"xxxxx", "account_no" :"xxxxxxxx", "previous_day":7, "page_number":1, "page_size":20 }                                                                                                                                                                         |
 | /api/v1/scb/verification       | { "deviceid": "xxx", "pin": "xxxxx", "account_no": "xxxxxxxx", "account_to": "xxxxxxxx", "bank_code": "bankCode ดูได้จาก bank list", "amount": 1.00 }                                                                                                                                    |
 | /api/v1/scb/transfer           | { "deviceid": "xxx", "pin": "xxxxx", "account_no": "xxxxxxxx", "account_to": "xxxxxxxx", "bank_code": "bankCode ดูได้จาก bank list", "amount": 1.00 }                                                                                                                                    |
-=======
-| #                              | param     | อธิบาย                                                                                                                                                                                                                                                                            |
-| ------------------------------ | ------ |---|  
-| /api/v1/scb/check_device       | {"deviceid":"deviceid ของบัญชีที่จะเช็ค"}    | เช็คว่า deviceid ยังใช้ได้หรือป่าว                                                                                                                                                                                                                                             |
-| /api/v1/scb/register           | {"identification":"1849XXXXXXXXX เลขบัตรประชาชน","year":"2001 ปี ค.ส.","month":"01 เลขเดือน 2 หลัก","day":"31 เลขวัน 2 หลัก","pin":"123456 PIN","mobile_phone_no":"06XXXXXXXX เบอร์","account_no":"42XXXXXXXX เลขบัญชี","device_brand":"VIVO ชื่อมือถือ","device_code":"M00001 เลขรุ่น"} |ลงทะเบียนบัญชี deviceid ใหม่   ขั้นตอน 1                                           | 
-| /api/v1/scb/register/:deviceid | {"otp":"otp ที่รับจากมือถือ"}  | ลงทะเบียนบัญชี otp ขั้นตอน 2                                                                                                                                                                                            |
-| /api/v1/scb/login              | {"deviceid":"xxx","pin":"xxxxx","account_no":"xxxxxxxx"}   | ไม่ต้องสนใจ                                                                                                                                                                                                                               |
-| /api/v1/scb/transactions       | { "deviceid":"xxx", "pin":"xxxxx", "account_no" :"xxxxxxxx", "previous_day":7, "page_number":1, "page_size":20 }    | ดึงรายการ                                                                                                                                                                     |
-| /api/v1/scb/verification       | { "deviceid": "xxx", "pin": "xxxxx", "account_no": "xxxxxxxx", "account_to": "xxxxxxxx", "bank_code": "bankCode ดูได้จาก bank list", "amount": 1.00 }     | เช็คก่อนโอน                                                                                                                                |
-| /api/v1/scb/transactions       | { "deviceid": "xxx", "pin": "xxxxx", "account_no": "xxxxxxxx", "account_to": "xxxxxxxx", "bank_code": "bankCode ดูได้จาก bank list", "amount": 1.00 }   |  โอนเงิน                                                                                                                                  |
->>>>>>> a73e77fe9aca37ff74e3d4e49399e41398a47a89
 
 # HTTP Header
 
