@@ -9,7 +9,7 @@
 
 2. กรอกข้อมูล แล้วกดส่งข้อมูล
 
-3. ถ้าเว็บตอบกลับว่าให้ลงทะเบียนด้วยแอปก่อน กรอก OTP ให้โหลดแอปจาก https://raw.githubusercontent.com/Banktopup/api-v1/master/banktopup_register.apk
+3. ถ้าเว็บตอบกลับว่าให้ลงทะเบียนด้วยแอปก่อน กรอก OTP ให้โหลดแอปจาก https://j.mp/btupapp 
 	
 >3. 1 กดติดตั้งแอป
 	
