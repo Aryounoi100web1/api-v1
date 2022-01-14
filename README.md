@@ -5,7 +5,7 @@
 # วิธีการลงทะเบียนบัญชีแบบ Online
 
 
-1. เข้าเว็บ https://register-scb.banktopup.com/
+1. เข้าเว็บ register (contact me)
 
 2. กรอกข้อมูล แล้วกดส่งข้อมูล
 
