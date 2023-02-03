@@ -1,6 +1,7 @@
 # Welcome to API-v1!
 บริการ API SCB ดึงรายการฝาก โอนเงิน ตรวจสอบสลิปโอนเงิน (QRCode) ทุกธนาคาร รวดเร็ว ให้บริการนานกว่า 2 ปี 
 สนใจใช้งานติดต่อ https://www.facebook.com/banktopup.th
+หรือ Telegram https://t.me/kittiza007
 # API EndPoint : https://api-v1.banktopup.com
 
 # วิธีการลงทะเบียนบัญชีแบบ Online
